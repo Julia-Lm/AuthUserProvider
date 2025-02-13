@@ -1,0 +1,13 @@
+@import "@/styles/variables.styles.scss";
+
+.button {
+  cursor: pointer;
+  display: flex;
+  padding: 10px 30px;
+  border-radius: 20px;
+  width: fit-content;
+  color: $white;
+  background-color: $green;
+  font-weight: 600;
+  font-size: 0.85rem;
+}

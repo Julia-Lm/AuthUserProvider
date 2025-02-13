@@ -1,0 +1,15 @@
+@import "@/styles/variables.styles.scss";
+
+.app-link {
+    text-decoration: underline;
+    color: $green;
+    font-weight: 600;
+    transition: all 0.3s;
+
+    &:hover,
+    &:active,
+    &:focus {
+        opacity: 0.7;
+        color: $green;
+    }
+}

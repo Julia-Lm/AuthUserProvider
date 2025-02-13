@@ -1,0 +1,66 @@
+@import "@/styles/variables.styles.scss";
+
+body {
+  background-color: $white;
+}
+
+
+html,
+body {
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 400;
+
+  main {
+    display: grid;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .main-title {
+    font-family: var(--font-public-sans), sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+
+  .text-info {
+    font-size: 1.25rem;
+    font-weight: 400;
+
+    & span {
+      font-weight: 600;
+    }
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: var(--font-public-sans), sans-serif;
+    box-sizing: border-box;
+  }
+
+  ol,
+  ul,
+  nav {
+    list-style: none;
+  }
+
+
+  a {
+    color: $black;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+
+    &:hover {
+      color: $black;
+    }
+  }
+
+  img {
+    max-width: 100%;
+    display: block;
+  }
+
+}
