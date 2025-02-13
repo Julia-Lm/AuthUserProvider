@@ -3,20 +3,24 @@
 
 ## Installation
 
-1. Clone the repository:
+Clone the repository:
 
-   ```bash
-   git clone https://github.com/Julia-Lm/AuthUserProvider
+```bash
+git clone https://github.com/Julia-Lm/AuthUserProvider
+```
 
-2. Install dependencies:
-
-    npm install
+Install dependencies:
+```bash
+npm install
+ ```
 
 ##  Running the Project
 
 To start the development server, run:
 
-    npm  run dev
+```bash
+npm  run dev
+ ```
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
